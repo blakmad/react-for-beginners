@@ -13,7 +13,7 @@ function App() {
         <Route path="/movie/:id">
           <Detail />
         </Route>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={Home}>
+        <Route>
           <Home />
         </Route>
       </Switch>
